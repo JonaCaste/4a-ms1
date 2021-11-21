@@ -6,5 +6,5 @@ from .views         import PersonaClienteListCreate, PersonaClienteUpdateDelete
 
 urlpatterns = [
     path('persona-cliente/',            PersonaClienteListCreate.as_view()),
-    path('persona-cliente/<pk>',    PersonaClienteUpdateDelete.as_view()),
+    path('persona-cliente/<pk>/',    PersonaClienteUpdateDelete.as_view()),
 ]
