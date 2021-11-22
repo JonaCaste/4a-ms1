@@ -3,7 +3,7 @@ from .views         import PersonaProfesionalListCreate, PersonaProfesionalUpdat
 
 
 urlpatterns = [
-    path('persona-profesional/',            PersonaProfesionalListCreate.as_view()),
+    path('persona-profesional/',        PersonaProfesionalListCreate.as_view()),
     path('persona-profesional/<pk>',    PersonaProfesionalUpdateDelete.as_view()),
 ]
 
