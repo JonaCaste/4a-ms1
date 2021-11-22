@@ -15,4 +15,3 @@ class PersonaCliente(models.Model):
     sexo = models.CharField(max_length=15)
     edad = models.IntegerField()
     #email = models.EmailField(default="")
-    
