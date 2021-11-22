@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'rest_auth.registration',
     'cliente',
+    'profesional',
 ]
 
 # Este es el sitio principal, donde vamos a realizar la autenticacion
