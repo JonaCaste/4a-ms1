@@ -14,6 +14,6 @@ class PersonaCliente(models.Model):
     nombre = models.CharField(max_length=64)
     sexo = models.CharField(max_length=15)
     edad = models.IntegerField()
-    email = models.EmailField(default="")
+    #email = models.EmailField(default="")
  
     
