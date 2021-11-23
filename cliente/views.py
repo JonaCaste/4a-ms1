@@ -14,4 +14,4 @@ class PersonaClienteListCreate(generics.ListCreateAPIView):
 class PersonaClienteUpdateDelete(generics.RetrieveUpdateDestroyAPIView):
     queryset = PersonaCliente.objects.all()
 
-    serializer_class = PersonaCliente
+    serializer_class = PersonaClienteSerializer
