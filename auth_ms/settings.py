@@ -88,8 +88,12 @@ WSGI_APPLICATION = 'auth_ms.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'db1f03cpn0drk1',
+        'USER': 'tyfywickqhodyt',
+        'PASSWORD': 'deba6406ba72e2b54d1ce563899f569645a8d4d7cfbc37000db07d05875e9101',
+        'HOST': 'ec2-52-204-72-14.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
@@ -145,6 +149,6 @@ REST_FRAMEWORK = {
     )
 }
 
-# Heroku
-# import django_heroku
-# django_heroku.settings(locals())
+#Heroku
+import django_heroku
+django_heroku.settings(locals())
