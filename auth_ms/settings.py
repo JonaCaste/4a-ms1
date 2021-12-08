@@ -149,6 +149,6 @@ REST_FRAMEWORK = {
     )
 }
 
-#Heroku
-import django_heroku
-django_heroku.settings(locals())
+# #Heroku
+# import django_heroku
+# django_heroku.settings(locals())
